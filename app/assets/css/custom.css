@@ -1,0 +1,93 @@
+.text-align-center{ text-align:center; }
+.margin-zero{ margin:0; }
+.overflow-hidden{ overflow:hidden; }
+.margin-bottom-1em{ margin-bottom:1em; }
+.m-r-1em{ margin-right:1em; }
+
+a{text-decoration: none;}
+.page-header {
+    margin-bottom: 30px;
+}
+
+.h-service {
+    border: 1px solid #eee;
+    margin-bottom: 25px;
+}
+
+.round-fifty {
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    margin-left: 40%;
+    margin-top: -25px;
+}
+
+.icon-wrap {
+    font-size: 2em;
+    height: 60px;
+    width: 60px;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    margin-right: 30px;
+}
+.h-service-content h3 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.h-service-content p {
+    text-align: center;
+    padding: 5px 21px 20px;
+}
+
+.ico-bg {
+    background: #48cfad;
+}
+.h-service-content a {
+    color: #e74c3c;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.answerOptions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.answerOption {
+    border-top: 1px solid #eee;
+    position: relative;
+}
+
+
+.radioCustomLabel {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.question {
+    margin: 0;
+    padding: .5rem 2.5rem 1.5rem;
+}
+
+.radioCustomButton, .radioCustomLabel {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.radioCustomButton {
+    width: 20px;
+    height: 20px;
+}

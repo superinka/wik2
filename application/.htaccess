@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+RewriteBase /
+RewriteRule ^index\.php$ - [E=X-HTTP_AUTHORIZATION:%{HTTP:Authorization},QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [E=X-HTTP_AUTHORIZATION:%{HTTP:Authorization},QSA,L]
+</IfModule>

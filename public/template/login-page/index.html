@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="login-page">
+
+        <div class="form">
+            <h3>MI BLOG</h3>
+            <form class="register-form">
+                <input type="text" placeholder="Tên Đăng Nhập" />
+                <input type="password" placeholder="Mật Khẩu" />
+                <input type="text" placeholder="Địa chỉ Email" />
+                <button>Đăng Ký</button>
+                <p class="message">Đã có tài khoản? <a href="#">Đăng nhập</a></p>
+            </form>
+            <form class="login-form">
+                <input type="text" placeholder="Tên Đăng Nhập" />
+                <input type="password" placeholder="Mật Khẩu" />
+                <button>Đăng Nhập</button>
+                <p class="message">Chưa là thành viên? <a href="#">Tạo tài khoản</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script>
+    $('.message a').click(function() {
+        $('form').animate({
+            height: "toggle",
+            opacity: "toggle"
+        }, "slow");
+    });
+</script>
+
+</html>
